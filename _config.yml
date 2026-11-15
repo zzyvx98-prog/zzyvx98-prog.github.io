@@ -1,0 +1,9 @@
+title: "FastIndex — Google Indexing Tool"
+description: "文章、教程与经验分享。"
+url: "https://zzyvx98-prog.github.io"
+baseurl: ""
+publisher_setup: fe8fd8c8fcd3ea4b7d92e9fd6429a5e26e3a8f01d783ee8b6bc19050474e17a3
+lang: zh-CN
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
