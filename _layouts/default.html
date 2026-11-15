@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; font: 18px/1.65 Georgia, "Iowan Old Style", serif; color: #1c1917; background: #fafaf9; overflow-wrap: anywhere; }
+    main { max-width: 740px; margin: 0 auto; padding: 48px 20px 80px; }
+    h1 { font-size: 2rem; line-height: 1.2; letter-spacing: -0.02em; }
+    h2 { margin-top: 2rem; font-size: 1.35rem; }
+    a { color: #9a3412; }
+    .meta { color: #78716c; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.9rem; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+    th, td { border-bottom: 1px solid #e7e5e4; text-align: left; padding: 8px 10px 8px 0; vertical-align: top; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.86em; }
+    pre { overflow-x: auto; padding: 12px; background: #f0efed; }
+    img { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <!-- pages-publisher-site:{{ site.publisher_setup }} -->
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
