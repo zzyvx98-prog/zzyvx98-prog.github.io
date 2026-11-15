@@ -11,4 +11,5 @@ description: "文章、教程与经验分享。"
 ## 文章列表
 
 <!-- pages-publisher:articles:start -->
+- [Google Indexing Tools Buying Guide 2026]({{ '/google-indexing-tools-buying-guide-2026/' | relative_url }})
 <!-- pages-publisher:articles:end -->
